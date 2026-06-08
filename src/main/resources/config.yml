@@ -1,0 +1,15 @@
+# Số phút online để nhận reward (tối thiểu 1)
+intervalMinutes: 60
+
+# Lệnh chạy khi hết thời gian
+# %player% sẽ được thay bằng tên người chơi
+command: "points give %player% 1"
+
+# Ai chạy lệnh: CONSOLE hoặc PLAYER
+runAs: "CONSOLE"
+
+# Chạy lệnh ngay khi vào server không? (false = chờ đủ thời gian)
+runOnJoin: false
+
+# Permission cần có để nhận reward (để trống = tất cả)
+requiredPermission: ""
